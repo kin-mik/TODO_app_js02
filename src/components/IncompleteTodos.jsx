@@ -4,7 +4,7 @@ export const IncompleteTodos = (props) => {
     const { todos, onClickComplete, onClickDelete } = props;
 
     return (
-        <div className="complete-area">
+        <div className="incomplete-area">
             <p className="title">未完了のTODO</p>
             <ul>
                 {todos.map((todo, index) => {
